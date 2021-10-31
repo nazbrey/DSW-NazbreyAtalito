@@ -1,0 +1,93 @@
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    border-radius: 7px;
+  }
+  /*.one {
+    grid-column: 1 ;
+    grid-row: 1;
+    background-color: burlywood;
+  }
+  */
+  .two {
+    grid-column: 1 / 4;
+    grid-row: 1;
+    background-color:rgba(0, 26, 255, 0.822);
+    border-radius: 7px;
+    text-align: center;
+    
+  }
+  .three {
+    grid-column: 1/3;
+    grid-row: 2 / 4;
+   ;
+     border-radius: 7px;
+     margin: 35px;
+     text-align: center;
+  }
+  .four {
+    grid-column: 3;
+    grid-row: 2/ 4;
+  
+    border-radius: 7px;
+    margin: 35px;
+
+  }
+  .five {
+    grid-column: 1 / 4;
+    grid-row: 4;
+    background-color:rgba(0, 26, 255, 0.822);
+    color: white;
+    text-align-last: center;
+    border-radius: 7px;
+  }
+  .two a{
+    text-decoration:none;
+    color:inherit;
+    font-size:15px;
+    }
+          
+.two li{
+    display:inline-block;
+    width:150px;
+    height:30px;
+    padding:5px 15px;
+    background-color:rgba(0, 26, 255, 0.822);
+    
+    text-align:center;
+    color:#fff;
+    position:relative;
+}
+          
+.two li:hover{
+    background-color:rgb(208, 247, 220);
+    color:#000;
+    text-align:center;
+    }
+          
+.two li>ul{
+    display:none;
+    }
+
+.two li:hover>ul{
+    display:block;
+    position:absolute;
+    top:40px;
+    
+    
+}
+
+
+
+ 
+            
+            
+           
+
+
+            
+     
+        
